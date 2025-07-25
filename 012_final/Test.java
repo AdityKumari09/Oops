@@ -2,7 +2,7 @@ final class Vehicle{ //final class(can't be extended)
     final int maxSpeed = 120; //final variable(can't be reassigned)
 
     public final void showSpeed(){ //final method(can't be overridden in subclass)
-        System.out.println("Max soeed :- " + maxSpeed + " km/h");
+        System.out.println("Max speed :- " + maxSpeed + " km/h");
     }
 }
 
