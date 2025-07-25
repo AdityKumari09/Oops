@@ -1,17 +1,17 @@
 abstract class Animal{
     abstract void walk();
     Animal(){
-        System.err.println("you are creating a new animal");
+        System.out.println("you are creating a new animal");
     }
     public void eat(){
-        System.err.println("Animal eats");
+        System.out.println("Animal eats");
     }
 }
 
 class Horse extends Animal{
 
     Horse(){
-        System.err.println("Created a Horse");
+        System.out.println("Created a Horse");
         /*  Here compiler first call the contructor of parent class i.e Animal()
             then call the constructor of child class. This is called Constructor Chaining.
         */
